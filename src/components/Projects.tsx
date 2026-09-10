@@ -21,8 +21,8 @@ export const Projects: React.FC = () => {
             <FloralMotif size={14} />
             <span>Featured Innovations</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight font-display">
-            Selected <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-[#FFE5F0] to-[#FF6FB5]">Projects</span>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight font-serif-title font-editorial-shadow">
+            Selected <span className="font-serif-italic font-normal text-shimmer-pink">Projects</span>
           </h2>
           <p className="text-[#C4C4D6] max-w-2xl text-base sm:text-lg mt-3 font-light">
             A showcase of machine learning frameworks, AI agent applications, and student-focused web utilities.

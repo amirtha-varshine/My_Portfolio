@@ -45,8 +45,8 @@ export const Skills: React.FC = () => {
             <FloralMotif size={14} />
             <span>Technical Proficiencies</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight font-display">
-            Skills &amp; <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-[#FFE5F0] to-[#FF6FB5]">Expertise</span>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight font-serif-title font-editorial-shadow">
+            Skills &amp; <span className="font-serif-italic font-normal text-shimmer-pink">Expertise</span>
           </h2>
           <p className="text-[#C4C4D6] max-w-2xl text-base sm:text-lg mt-3 font-light">
             Hands-on technical stack spanning machine learning, geospatial analysis, modern full-stack web frameworks, and enterprise software.

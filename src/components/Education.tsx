@@ -17,8 +17,8 @@ export const Education: React.FC = () => {
             <FloralMotif size={14} />
             <span>Academic Foundations</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight font-display">
-            Education &amp; <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-[#FFE5F0] to-[#FF6FB5]">Academics</span>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight font-serif-title font-editorial-shadow">
+            Education &amp; <span className="font-serif-italic font-normal text-shimmer-pink">Academics</span>
           </h2>
           <p className="text-[#C4C4D6] max-w-2xl text-base sm:text-lg mt-3 font-light">
             Formal training in computational theory, algorithmic analysis, and engineering fundamentals.

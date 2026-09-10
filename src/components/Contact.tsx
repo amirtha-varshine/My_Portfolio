@@ -52,8 +52,8 @@ export const Contact: React.FC = () => {
             <FloralMotif size={14} />
             <span>Initiate Collaboration</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight font-display">
-            Get In <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-[#FFE5F0] to-[#FF6FB5]">Touch</span>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight font-serif-title font-editorial-shadow">
+            Get in <span className="font-serif-italic font-normal text-shimmer-pink">Touch</span>
           </h2>
           <p className="text-[#C4C4D6] max-w-2xl text-base sm:text-lg mt-3 font-light">
             Whether you have a research project, an engineering opening, or just want to chat about AI &amp; data analytics, my inbox is always open.

@@ -21,8 +21,91 @@
     font-family: 'Outfit', sans-serif;
   }
 
+  .font-serif-title {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .font-serif-italic {
+    font-family: 'Instrument Serif', 'Playfair Display', Georgia, serif;
+    font-style: italic;
+  }
+
   code, pre, .font-mono {
     font-family: 'Fira Code', monospace;
+  }
+}
+
+/* Typography Effects */
+@keyframes textShimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.text-shimmer-pink {
+  background: linear-gradient(90deg, #FFFFFF 0%, #FFE5F0 25%, #FF6FB5 50%, #FF2E93 75%, #FFFFFF 100%);
+  background-size: 250% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textShimmer 6s ease infinite;
+}
+
+.text-shimmer-subtle {
+  background: linear-gradient(90deg, #FFFFFF 0%, #FFE8F2 40%, #FFAFD4 60%, #FFFFFF 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textShimmer 8s ease infinite;
+}
+
+.font-editorial-shadow {
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.4), 0 0 30px rgba(255, 46, 147, 0.25);
+}
+
+.subtle-ring-pulse {
+  animation: ringPulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* 3D Half Rotation & Flip Card Utilities */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.card-half-tilt {
+  transform: rotate(3.5deg);
+}
+
+.card-half-tilt-reverse {
+  transform: rotate(-3.5deg);
+}
+
+@keyframes ringPulse {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.75;
+    transform: scale(1.03);
   }
 }
 

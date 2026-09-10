@@ -20,8 +20,8 @@ export const Certificates: React.FC = () => {
             <FloralMotif size={14} />
             <span>Verified Credentials</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight font-display">
-            Certifications &amp; <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-[#FFE5F0] to-[#FF6FB5]">Accreditations</span>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight font-serif-title font-editorial-shadow">
+            Certifications &amp; <span className="font-serif-italic font-normal text-shimmer-pink">Accreditations</span>
           </h2>
           <p className="text-[#C4C4D6] max-w-2xl text-base sm:text-lg mt-3 font-light">
             Continuous industry and academic upskilling in Cloud architecture, Generative AI, Python development, and Data Analytics.

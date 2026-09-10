@@ -92,7 +92,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection, setActiveSection 
               Amirthavarshine S
             </span>
             <span className="text-[11px] font-mono text-[#C4C4D6] tracking-wider uppercase">
-              AI/ML & Full-Stack
+              AI/ML &amp; Full-Stack
             </span>
           </div>
         </a>
@@ -106,7 +106,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection, setActiveSection 
                 key={link.name}
                 href={link.href}
                 onClick={(e) => handleNavClick(e, link.href)}
-                className={`relative px-3 py-1.5 text-sm font-medium transition-colors duration-200 rounded-md ${
+                className={`relative px-3 py-1.5 text-xs xl:text-sm font-medium transition-colors duration-200 rounded-md ${
                   isActive
                     ? 'text-white'
                     : 'text-[#C4C4D6] hover:text-white hover:bg-white/5'
